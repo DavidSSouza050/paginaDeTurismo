@@ -1,0 +1,155 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  font-family: 'open sans', sans-serif;
+  line-height: 150%;
+}
+
+/*Colocando cores padrões aos elementos*/
+body{
+  background-color: #F5F4F0;
+}
+
+p {
+  color: #333333;
+}
+
+h1, h2, h3{
+  color: #1B1B1B;
+  font-weight: bold;
+}
+
+#page{
+  width: 1100px;
+  min-height: 200px;
+  height: auto;
+  overflow: hidden;
+  margin: auto;
+}
+
+/*Primeira sessão, cidade busan*/
+#busan{
+  width: inherit;
+  height: auto;
+  margin-top: 88px;
+  padding-bottom: 40px;
+  border-bottom: solid 1px #D9D9D9;
+}
+
+span{
+  font-size: 16px;           
+  color: #E1624F;
+  font-weight: bold;
+}
+
+#busan h1{
+  font-size: 36px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+img{
+  width: 100%;
+}
+
+#busan p{
+  margin-top: 20px;
+  text-align: center;
+}
+
+/*Main, conteúdo principal da pagina, lugares turisticos de busan*/
+
+main{
+  width: inherit;
+  height: auto;
+  margin-top: 64px;
+}
+
+main h2{
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 12px;
+  margin-bottom: 20px;
+}
+
+main p{
+  font-size: 16px;
+  text-align: left;
+  margin-bottom: 64px;
+}
+
+/*Templo Haedong*/
+.destiny{
+  width: inherit;
+  height: auto;
+  margin-bottom: 48px;
+}
+.destiny h3{
+  font-size: 28px;
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+.destiny p{
+  margin-bottom: 20px;
+}
+
+.destiny ul{
+  margin-left: 30px;
+  font-weight: bold;
+}
+
+li::marker{
+  color: black;
+}
+
+
+main div{
+  width: inherit;
+  height: auto;
+  padding-top: 40px;
+  border-top: solid 1px #D9D9D9;
+}
+
+main div p{
+  margin-bottom: 40px;
+ text-align: center;
+}
+
+footer{
+  color:#333333;
+  text-align: center; 
+  padding-bottom: 48px;
+  font-family: serif;
+}
+
+footer img{
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+}
+
+
+
+
+
+/*Cores de assets*/
+.accent-blue{
+  color: #0C51A7;
+}
+
+.accent-orange{
+  color: #E95E10;
+}
+
+.accent-pink{
+  color: #E5245E;
+}
+
+.accent-purple{
+  color: #591B98;
+}
